@@ -1,0 +1,18 @@
+# environment variables
+.env
+
+# data stores
+data/datastores/*
+!data/datastores/.gitkeep
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# testing
+/coverage
+
+# build
+/dist

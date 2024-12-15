@@ -1,0 +1,1 @@
+These ABI files do not contain all content of smart contracts. Including only the used events in ABI is enough. In our case, we need to listen domain registration events.
