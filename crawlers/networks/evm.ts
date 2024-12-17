@@ -1,7 +1,7 @@
 import { WebSocketProvider, Contract } from "ethers";
 
-import Crawler from "../utils.ts";
-import { Config } from "../config.ts";
+import Crawler from "../utils.js";
+import { Config } from "../config.js";
 
 export default abstract class EVMCrawler {
     public provider: WebSocketProvider;
@@ -30,7 +30,6 @@ export default abstract class EVMCrawler {
 
     listen(eventName: string) {
         this.contract.on(eventName, (...args) => {
-            console.log("xd");
             console.log(JSON.stringify(args, null, 2));
             // Crawler.addToDatastore({})
         });

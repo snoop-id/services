@@ -4,8 +4,8 @@ import { createServer } from "http";
 import cookieParser from "cookie-parser";
 import express, { type Application } from "express";
 
-import Crawl from "./crawlers/index.ts";
-import DataRouter from "./data/index.ts";
+import Crawl from "./crawlers/index.js";
+import DataRouter from "./data/index.js";
 
 const app: Application = express();
 const server = createServer(app);

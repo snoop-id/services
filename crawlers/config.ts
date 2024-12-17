@@ -1,6 +1,6 @@
-import BSC_ABI from "./abi/bsc.ts";
-import ETH_ABI from "./abi/eth.ts";
-import ARB_ABI from "./abi/arb.ts";
+import BSC_ABI from "./abi/bsc.js";
+import ETH_ABI from "./abi/eth.js";
+import ARB_ABI from "./abi/arb.js";
 
 export const Config = {
     networks: ["mainnet", "bsc-mainnet", "arbitrum-mainnet"] as const,

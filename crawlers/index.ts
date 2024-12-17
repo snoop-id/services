@@ -1,6 +1,6 @@
 // Initialize crawlers
-import ETHCrawler from "./networks/eth.ts";
-import BNBCrawler from "./networks/bsc.ts";
+import ETHCrawler from "./networks/eth.js";
+import BNBCrawler from "./networks/bsc.js";
 
 const eth = new ETHCrawler();
 const bnb = new BNBCrawler();

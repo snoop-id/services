@@ -4,9 +4,9 @@ import { Router } from "express";
 import { verifyMessage } from "ethers";
 import { createWeb3Name } from "@web3-name-sdk/core";
 
-import { Authenticate } from "../middlewares.ts";
-import { add, decode, get, getAll } from "./utils.ts";
-import Crawler, { IDomain } from "../crawlers/utils.ts";
+import { Authenticate } from "../middlewares.js";
+import { add, decode, get, getAll } from "./utils.js";
+import Crawler, { IDomain } from "../crawlers/utils.js";
 
 const router = Router();
 

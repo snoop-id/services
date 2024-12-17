@@ -1,7 +1,7 @@
 import jwt from "jsonwebtoken";
 import { createWeb3Name } from "@web3-name-sdk/core";
 
-import { internalRequest } from "../utils.ts";
+import { internalRequest } from "../utils.js";
 
 export interface IDomain {
     domain: string;

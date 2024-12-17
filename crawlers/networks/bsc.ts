@@ -1,4 +1,4 @@
-import EVMCrawler from "./evm.ts";
+import EVMCrawler from "./evm.js";
 
 export default class BNBCrawler extends EVMCrawler {
     constructor() {
