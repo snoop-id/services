@@ -6,6 +6,6 @@ export default class ETHCrawler extends EVMCrawler {
     }
 
     listen() {
-        super.listen();
+        super.listen("NameRegistered");
     }
 }

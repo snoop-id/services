@@ -1,11 +1,11 @@
 import { z } from "zod";
 import cors from "cors";
 import { Router } from "express";
+import { verifyMessage } from "ethers";
 import { createWeb3Name } from "@web3-name-sdk/core";
 
-import { add, decode, get, getAll } from "./utils.ts";
 import { Authenticate } from "../middlewares.ts";
-import { verifyMessage } from "ethers";
+import { add, decode, get, getAll } from "./utils.ts";
 import Crawler, { IDomain } from "../crawlers/utils.ts";
 
 const router = Router();
